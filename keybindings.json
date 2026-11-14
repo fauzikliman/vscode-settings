@@ -1,123 +1,157 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "ctrl+shift+k",
+        "key": "alt+k",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+shift+k",
+        "key": "alt+k",
         "command": "workbench.action.terminal.focus",
         "when": "!terminalFocus"
     },
     {
-        "key": "ctrl+shift+k",
-        "command": "-editor.action.deleteLines",
-        "when": "textInputFocus && !editorReadonly"
+        "key": "alt+backspace",
+        "command": "deleteWordLeft",
+        "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+backspace",
+        "key": "alt+shift+backspace",
         "command": "editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+[",
-        "command": "-editor.fold",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+]",
-        "command": "-editor.unfold",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+[",
+        "key": "alt+u",
         "command": "workbench.action.previousEditor"
     },
     {
-        "key": "ctrl+shift+]",
+        "key": "alt+o",
         "command": "workbench.action.nextEditor"
     },
     {
-        "key": "ctrl+shift+j",
+        "key": "alt+j",
         "command": "workbench.action.terminal.focusPrevious"
     },
     {
-        "key": "ctrl+shift+l",
+        "key": "alt+l",
         "command": "workbench.action.terminal.focusNext"
     },
     {
-        "key": "ctrl+shift+i",
+        "key": "alt+h",
         "command": "workbench.action.terminal.kill"
     },
     {
-        "key": "ctrl+shift+;",
+        "key": "alt+;",
         "command": "workbench.action.terminal.new",
         "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
     },
     {
-        "key": "ctrl+shift+;",
-        "command": "-breadcrumbs.focus",
-        "when": "breadcrumbsPossible && breadcrumbsVisible"
+        "key": "alt+p",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "alt+[",
+        "command": "editor.action.outdentLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+]",
+        "command": "editor.action.indentLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key":  "alt+/",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus"
     },
     {
         "key": "alt+w",
         "command": "cursorUp",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
     },
     {
         "key": "alt+s",
         "command": "cursorDown",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
     },
     {
         "key": "alt+a",
         "command": "cursorLeft",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
     },
     {
         "key": "alt+d",
         "command": "cursorRight",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
     },
     {
         "key": "alt+ctrl+a",
         "command": "cursorWordLeft",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
     },
     {
         "key": "alt+ctrl+d",
         "command": "cursorWordRight",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
     },
     {
         "key": "alt+shift+w",
         "command": "cursorUpSelect",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
     },
     {
         "key": "alt+shift+s",
         "command": "cursorDownSelect",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
     },
     {
         "key": "alt+shift+a",
         "command": "cursorLeftSelect",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
     },
     {
         "key": "alt+shift+d",
         "command": "cursorRightSelect",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
     },
     {
-        "key": "alt+shift+ctrl+w",
+        "key": "alt+ctrl+shift+a",
+        "command": "cursorWordLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+ctrl+shift+d",
+        "command": "cursorWordRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+ctrl+w",
         "command": "editor.action.moveLinesUpAction",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
     },
     {
-        "key": "alt+shift+ctrl+s",
+        "key": "alt+ctrl+s",
         "command": "editor.action.moveLinesDownAction",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+q",
+        "command": "cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+e",
+        "command": "cursorEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+q",
+        "command": "cursorHomeSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+e",
+        "command": "cursorEndSelect",
+        "when": "textInputFocus"
     }
 ]

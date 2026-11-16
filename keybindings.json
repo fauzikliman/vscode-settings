@@ -65,92 +65,92 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "alt+w",
+        "key": "alt+e",
         "command": "cursorUp",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+s",
+        "key": "alt+d",
         "command": "cursorDown",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+a",
+        "key": "alt+s",
         "command": "cursorLeft",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+d",
+        "key": "alt+f",
         "command": "cursorRight",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+ctrl+a",
+        "key": "alt+ctrl+s",
         "command": "cursorWordLeft",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+ctrl+d",
+        "key": "alt+ctrl+f",
         "command": "cursorWordRight",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+shift+w",
+        "key": "alt+shift+e",
         "command": "cursorUpSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+shift+s",
+        "key": "alt+shift+d",
         "command": "cursorDownSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+shift+a",
+        "key": "alt+shift+s",
         "command": "cursorLeftSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+shift+d",
+        "key": "alt+shift+f",
         "command": "cursorRightSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+ctrl+shift+a",
+        "key": "alt+ctrl+shift+s",
         "command": "cursorWordLeftSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+ctrl+shift+d",
+        "key": "alt+ctrl+shift+f",
         "command": "cursorWordRightSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+ctrl+w",
+        "key": "alt+ctrl+e",
         "command": "editor.action.moveLinesUpAction",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+ctrl+s",
+        "key": "alt+ctrl+d",
         "command": "editor.action.moveLinesDownAction",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+q",
+        "key": "alt+w",
         "command": "cursorHome",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+e",
+        "key": "alt+r",
         "command": "cursorEnd",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+shift+q",
+        "key": "alt+shift+w",
         "command": "cursorHomeSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+shift+e",
+        "key": "alt+shift+r",
         "command": "cursorEndSelect",
         "when": "textInputFocus"
     }

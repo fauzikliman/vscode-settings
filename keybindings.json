@@ -38,12 +38,12 @@
     },
     {
         "key": "alt+h",
-        "command": "workbench.action.terminal.kill"
+        "command": "workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
     },
     {
         "key": "alt+;",
-        "command": "workbench.action.terminal.new",
-        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+        "command": "workbench.action.terminal.kill"
     },
     {
         "key": "alt+p",
